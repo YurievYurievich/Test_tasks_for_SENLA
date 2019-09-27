@@ -4,9 +4,9 @@ class Check_int
 public:
 	Check_int();
 	~Check_int();
-	// проверка на чётность
+	// РїСЂРѕРІРµСЂРєР° РЅР° С‡С‘С‚РЅРѕСЃС‚СЊ
 	 bool is_even(const int& x);
-	// проверка на простое число
+	// РїСЂРѕРІРµСЂРєР° РЅР° РїСЂРѕСЃС‚РѕРµ С‡РёСЃР»Рѕ
 	 bool is_simple(const int& x);
 	
 };

@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include "Check_string.h"
 using namespace std;
 

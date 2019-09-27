@@ -1,4 +1,4 @@
-﻿#include "Check_int.h"
+#include "Check_int.h"
 #include "Input.h"
 #include <iostream>
 using namespace std;

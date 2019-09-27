@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include "Input.h"
 #include "Bag.h"
 using namespace std;
