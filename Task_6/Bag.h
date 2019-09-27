@@ -16,11 +16,12 @@ public:
 	~Bag();
 	// Возвращает суммарную стоимость всех вещей
 	int get_cost();
+	int get_weight();
 private:
 	// Вмсестимость
 	int capacity;
 	// Вещи в сумке
-	vector<Item> items;
+	int weight;
 	// Сумарная стоимость вещей
 	int cost;
 	

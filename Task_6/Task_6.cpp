@@ -21,7 +21,7 @@ int main()
 		int w = input.integer();
 		cout << "Cost\n";
 		int c = input.integer();
-		items.push_back(Item(c,w));
+		items.push_back(Item(c,w,j));
 		cout << "\nDo you want to enter some more?(no-'0' yes-other numbers) \n";
 		i = input.integer();
 		cout << '\n';
@@ -29,8 +29,7 @@ int main()
 	// Создаём объектов сумки передав в конструктор массив вещей
 	// и вместимость сумки
 	Bag bag(items, c);
-
-	cout << "\nMax profit: " << bag.get_cost() << endl;
+	cout << "\nMax profit\nCost: " << bag.get_cost() << "\nWeight:"<<bag.get_weight();
 
 
 }
